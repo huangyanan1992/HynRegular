@@ -15,7 +15,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        if "1178848591@qq.com" =~ mailPattern {
+            print("有效的邮箱地址")
+        }
+        
+        if "https://github.com/huangyanan1992" =~ urlPattern {
+            print("有效网址")
+        }
+        
+        if "my-us3r_n4m3" =~ userNamePattern {
+            print("有效用户名")
+        }
+        
+        if "#a3c113" =~ hexValuePattern {
+            print("16进制")
+        }
+        
+        if "my-title-here" =~ slugPattern {
+            print("slug")
+        }
+        
+        if "http://www.jianshu.com/users/391939f53241/latest_articles" =~ urlPattern {
+            print("有效url")
+        }
+        
+        if "73.60.124.136" =~ ipPattern {
+            print("有效ip")
+        }
+        
         return true
     }
 
