@@ -1,5 +1,5 @@
 //
-//  HynRegularManager.swift
+//  HynRegular.swift
 //  HynRegular
 //
 //  Created by Huang Yanan on 16/8/22.
