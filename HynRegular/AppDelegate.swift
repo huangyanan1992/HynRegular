@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("有效的邮箱地址")
         }
         
-        if "https://github.com/huangyanan1992" =~ urlPattern {
-            print("有效网址")
+        if "dfkjkdf04204" =~ passwordPattern {
+            print("有效密码")
         }
         
         if "my-us3r_n4m3" =~ userNamePattern {
